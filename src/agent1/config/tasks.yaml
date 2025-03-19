@@ -1,0 +1,18 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic} and 
+    Put all the contain that has been scrapped into this file
+
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and find the main keywords from the information.
+    Make sure the keywords are related to the topic .
+  expected_output: >
+    A file the contain all the keywods about the main topic
+  agent: reporting_analyst
